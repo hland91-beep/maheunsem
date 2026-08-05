@@ -71,7 +71,9 @@ p{ margin:0; color:var(--ink-2); }
 .muted{ color:var(--ink-3); font-size:.86rem; line-height:1.55; }
 
 .lead, .muted, .basis, .foot-philosophy, .foot-disclaimer,
-.rv-note, .reward, .choice .c-t, .sumrow .s-n{ text-wrap:pretty; }
+.rv-note, .reward, .choice .c-t, .sumrow .s-n, .clamp-note{ text-wrap:pretty; }
+
+.field .clamp-note{ margin-top:.5rem; }
 
 .card{
   background:var(--panel); border:1px solid var(--line);
