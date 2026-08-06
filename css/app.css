@@ -249,12 +249,16 @@ input[type=range]:focus-visible::-webkit-slider-thumb{ outline:3px solid var(--g
 
 .lever{
   display:flex; align-items:center; justify-content:space-between; gap:.7rem;
+  flex-wrap:wrap;                 
   padding:.8rem .95rem; border:1px solid var(--line); border-radius:13px; background:var(--panel);
 }
+.lever .lv-l{ display:grid; gap:.1rem; min-width:0; }
 .lever .q-t{ font-size:.95rem; font-weight:650; color:var(--ink-2); }
+.lever .lv-why{ font-size:.78rem; color:var(--ink-3); line-height:1.5; }
+
 .lever .lv-v{
-  font-size:1.1rem; font-weight:800; letter-spacing:-0.02em;
-  color:var(--good); font-variant-numeric:tabular-nums; white-space:nowrap;
+  font-size:1.1rem; font-weight:800; letter-spacing:-0.02em; margin-left:auto;
+  color:var(--navy); font-variant-numeric:tabular-nums; white-space:nowrap;
 }
 
 .sendlist{ display:grid; gap:.35rem; }
