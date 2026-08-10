@@ -310,6 +310,10 @@ details.assump[open] > summary{ border-bottom:1px solid var(--line); }
 .assump-body{ padding:.9rem; }
 .assump-body > * + *{ margin-top:1rem; }
 
+.assump-list{ margin:0; padding:0; list-style:none; }
+.assump-list li{ padding-left:.85rem; text-indent:-.85rem; }
+.assump-list li + li{ margin-top:.35rem; }
+
 .basis{
   font-size:.78rem; color:var(--ink-3); line-height:1.6;
   border-left:2px solid var(--line); padding-left:.7rem;
