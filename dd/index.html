@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>원장셈 — 개원의 은퇴·리스크 셈</title>
+<meta name="description" content="진료가 멈춘 달, 통장에는 얼마가 들어올까요? 3분이면 개원의(치과·의과) 원장님의 공백이 숫자로 나옵니다.">
+
+<meta name="theme-color" content="#f5f6f8">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+
+<link rel="stylesheet" href="css/app.css?v=20260813T1121">
+</head>
+<body>
+<script>window.DD_EMBEDDED=1;</script>
+
+<header class="topbar" id="topbar">
+  <button class="tb-back" id="btnBack" type="button" aria-label="이전으로">←</button>
+  <div class="tb-progress" id="progress" role="progressbar" aria-label="진행" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <i id="progressFill"></i>
+  </div>
+  <div class="tb-tools">
+    <button class="tb-act" id="btnHome" type="button" aria-label="질문 목록으로" hidden>목록</button>
+    <button class="tb-act" id="btnReset" type="button" aria-label="답변 초기화" hidden>초기화</button>
+    <button class="tb-font" id="btnFont" type="button" aria-label="글자 크기 바꾸기">가</button>
+  </div>
+</header>
+
+<main id="screen" class="screen" tabindex="-1"></main>
+
+<div class="foot">
+  <p class="foot-philosophy">진료는 언젠가 멈춥니다.<br>현금흐름은 멈추지 않게 만들어 둘 수 있고,<br>오늘 한 걸음이면 충분합니다.</p>
+  <p class="foot-disclaimer">본 결과는 입력값에 기반한 참고용 시뮬레이션이며 세무·법률 자문이나 투자 권유가 아닙니다. 실제와 다를 수 있습니다.</p>
+</div>
+
+<script src="js/00-laws.gen.js?v=20260813T1121"></script>
+<script src="js/01-engine.gen.js?v=20260813T1121"></script>
+<script src="js/02-med.gen.js?v=20260813T1121"></script>
+<script src="js/10-state.js?v=20260813T1121"></script>
+<script src="js/15-calc.js?v=20260813T1121"></script>
+<script src="js/30-qr.js?v=20260813T1121"></script>
+<script src="js/40-export.js?v=20260813T1121"></script>
+<script src="content/dd-cards.js?v=20260813T1121"></script>
+<script src="js/20-predict.js?v=20260813T1121"></script>
+<script src="js/90-handoff.js?v=20260813T1121"></script>
+<script src="js/91-link.js?v=20260813T1121"></script>
+<script src="js/99-boot.js?v=20260813T1121"></script>
+</body>
+</html>
